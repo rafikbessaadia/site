@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>rafik bessaadia</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+<script src="js/script.js"></script>
+
+
+</head>
+<body>
+<nav class="nav">
+        <div class="container">
+            <div class="logo">
+            <img src="img/logo r.png" height="70" width="70" > 
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#aboutme">About me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="https://www.facebook.com/rafik.bensaadia " target="_blank">Facebook</a></li>
+                    <li><a href="https://www.linkedin.com/in/rafik-bessadia-43bb39a1/" target="_blank" id="linkedin">Linkedin</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+    </section>
+    <div style="height: 550px">
+        <!-- just to make scrolling effect possible -->
+			<h2 class="myH2" id="aboutme">About me </h2>
+			
+				<p class="myP">
+				Detail-oriented professional prepared to excel in the field of chemical engineering and
+contribute to organizational objectives.<br>
+*<b>environmental Engineering</b>: Monitor and test air emissions and evaluate air pollution
+control processes. Develop physical and chemical methods for controlling air pollution.<br>
+*<b>Process Design</b>: Analyze plant and equipment needs. Contribute to and develop most
+economic and effective practices.<br>
+*<b>Computers & Administration</b>: Utilize Windows-based PCs with various software: MATLAB,
+Microsoft Office,Aspen, comsol, Autocad.<br>
+*<b>Key Strengths</b>: well organized ,Adept at maintaining an exceptional rate of productivity,
+accuracy, and efficiency, able to get along with work colleagues and managers.<br>
+			</p>
+    </div>
+
+
+    <div style="height: 600px">
+			<h2 class="myH2" id="portfolio">Portfolio</h2>
+			
+				<p class="myP">
+				Detail-oriented professional prepared to excel in the field of chemical engineering and
+contribute to organizational objectives.<br>
+*<b>environmental Engineering</b>: Monitor and test air emissions and evaluate air pollution
+control processes. Develop physical and chemical methods for controlling air pollution.<br>
+*<b>Process Design</b>: Analyze plant and equipment needs. Contribute to and develop most
+economic and effective practices.<br>
+*<b>Computers & Administration</b>: Utilize Windows-based PCs with various software: MATLAB,
+Microsoft Office,Aspen, comsol, Autocad.<br>
+*<b>Key Strengths</b>: well organized ,Adept at maintaining an exceptional rate of productivity,
+accuracy, and efficiency, able to get along with work colleagues and managers.<br>
+			</p>
+    </div>
+
+<!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+</body>
+</html>
